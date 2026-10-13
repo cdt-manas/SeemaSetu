@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+venv/
+
+# Environment
+.env
+
+# Build
+dist/
+build/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Keys — IMPORTANT
+serviceAccountKey.json
+backend/config.py
+
+# Dataset — too large
+seema_setu_dataset/
+seema_setu_demo_dataset.csv
+generate_dataset.py
+
+# Model weights — too large
+backend/models/best.pt
+
+# Mac
+.DS_Store
+
+# Logs
+*.log
